@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h1>My Contact Details</h1>
+    <p><strong>Address:</strong> 138 Siena St.<br />San Diego, Ca., 92114</p>
+    <p><strong>Phone: </strong>619.940.7195</p>
+    <p><strong>Email: </strong>lvnry2000@gmail.com</p>
+    <hr />
+    <form
+      enctype="text/plain"
+      action="mailto:lvnry2000@gmail.com"
+      method="post"
+    >
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" value="yourName" />
+      <br />
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" value="yourEmail" /> <br />
+      <label for="message">Your Message:</label> <br />
+      <textarea
+        id="message"
+        name="message"
+        rows="10"
+        cols="30"
+        value="yourMessage"
+      ></textarea>
+      <br />
+      <input type="submit" name="" />
+    </form>
+  </body>
+</html>
